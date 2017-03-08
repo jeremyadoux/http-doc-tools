@@ -1,0 +1,221 @@
+﻿<html>
+	
+<head>
+	<title>Ajoute la date du jour</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Integration_FR.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("Ajouteladatedujour");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Ajoute la date du jour</h1>
+				
+				<div id="topic_breadcrumb">
+					Utilisation de &quot;Integration&quot; &rsaquo;&rsaquo; D&eacute;tail des op&eacute;rations &rsaquo;&rsaquo; <a href="Proprit1.html">Propri&eacute;t&eacute;</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="Proprit1.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Ajoutdansunrapportlalistedesprop.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="Ajouteunepropritdelapiceassembla.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts7"><br/></span></p>
+<p class="rvps3"><span class="rvts7">Opération possible sur les pièces, les assemblages ou les mises en plan. </span><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/Condition00.png"></p>
+<p class="rvps3"><span class="rvts7">Cette opération permet de créer une propriété avec comme valeur la date du jour.</span></p>
+<p class="rvps3"><span class="rvts24">Exemple</span><span class="rvts7"> :</span></p>
+<p class="rvps3"><span class="rvts7">Créer la propriété "</span><span class="rvts18">DateVerification</span><span class="rvts7">" avec la date du jour en utilisant le format "</span><span class="rvts18">dd/MM/yy</span><span class="rvts7">". Si la date du jour est 18 janvier 2013 alors la propriété "</span><span class="rvts18">DateVerification</span><span class="rvts7">" aura comme valeur "</span><span class="rvts18">18/01/13</span><span class="rvts7">".</span></p>
+<p class="rvps3"><img alt="" style="padding : 1px;" src="lib/Oper-Propriete8.png"></p>
+<p class="rvps3"><span class="rvts7"><br/></span></p>
+<p class="rvps2"><span class="rvts7">On peut choisir un format parmi la liste déroulante proposée :</span></p>
+<p class="rvps2"><span class="rvts7"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/Liste Format Date.png"></p>
+<p class="rvps2"><span class="rvts7"><br/></span></p>
+<p class="rvps3"><span class="rvts7">Ou bien saisir directement le format personnalisé. Le tableau suivant montre les caractères que vous pouvez utiliser :</span></p>
+<p class="rvps2"><span class="rvts7"><br/></span></p>
+<div class="rvps2"><table border="1" cellpadding="1" cellspacing="2" style="border-color: #000000; border-style: solid; border-spacing: 2px;">
+<tr valign="top">
+<td width="110" style="border-width : 0px; padding: 1px; background-color: #99ccff;"><p class="rvps6"><span class="rvts31">Caractères</span></p>
+</td>
+<td width="1042" style="border-width : 0px; padding: 1px; background-color: #99ccff;"><p class="rvps6"><span class="rvts31">Description</span></p>
+</td>
+</tr>
+<tr valign="middle">
+<td width="110" height="44" valign="middle" style="border-width : 0px; padding: 1px;"><p class="rvps6"><span class="rvts25">d</span></p>
+</td>
+<td width="1042" height="44" style="border-width : 0px; padding: 1px;"><p class="rvps2"><span class="rvts25">Affiche le jour sous la forme d'un nombre sans zéro significatif (exemple 1). Utiliser %d s'il s'agit du seul caractère dans le format numérique défini par l'utilisateur</span></p>
+</td>
+</tr>
+<tr valign="middle">
+<td width="110" height="26" style="border-width : 0px; padding: 1px;"><p class="rvps6"><span class="rvts25">dd</span></p>
+</td>
+<td width="1042" height="26" valign="middle" style="border-width : 0px; padding: 1px;"><p class="rvps2"><span class="rvts25">Affiche le jour sous la forme d'un nombre avec un zéro non significatif (exemple 01)</span></p>
+</td>
+</tr>
+<tr valign="middle">
+<td width="110" height="25" valign="middle" style="border-width : 0px; padding: 1px;"><p class="rvps6"><span class="rvts25">ddd</span></p>
+</td>
+<td width="1042" height="25" style="border-width : 0px; padding: 1px;"><p class="rvps2"><span class="rvts25">Affiche le jour sous la forme d'une abréviation (exemple lun.)</span></p>
+</td>
+</tr>
+<tr valign="middle">
+<td width="110" height="26" style="border-width : 0px; padding: 1px;"><p class="rvps6"><span class="rvts25">dddd</span></p>
+</td>
+<td width="950" height="26" valign="middle" style="border-width : 0px; padding: 1px;"><p class="rvps2"><span class="rvts25">Affiche le jour sous la forme d'une abréviation (exemple lundi)</span></p>
+</td>
+</tr>
+<tr valign="middle">
+<td width="110" height="40" valign="middle" style="border-width : 0px; padding: 1px;"><p class="rvps6"><span class="rvts25">M</span></p>
+</td>
+<td width="1042" height="40" valign="middle" style="border-width : 0px; padding: 1px;"><p class="rvps2"><span class="rvts25">Affiche le mois sous la forme d'un nombre sans zéro significatif (exemple janvier correspond à 1). Utiliser %M s'il s'agit du seul caractère dans le format numérique défini par l'utilisateur</span></p>
+</td>
+</tr>
+<tr valign="middle">
+<td width="110" height="31" valign="middle" style="border-width : 0px; padding: 1px;"><p class="rvps6"><span class="rvts25">MM</span></p>
+</td>
+<td width="1042" height="31" valign="middle" style="border-width : 0px; padding: 1px;"><p class="rvps2"><span class="rvts25">Affiche le mois sous la forme d'un nombre avec un zéro non significatif (exemple janvier correspond 01)</span></p>
+</td>
+</tr>
+<tr valign="middle">
+<td width="110" height="26" valign="middle" style="border-width : 0px; padding: 1px;"><p class="rvps6"><span class="rvts25">MMM</span></p>
+</td>
+<td width="1042" height="26" valign="middle" style="border-width : 0px; padding: 1px;"><p class="rvps2"><span class="rvts25">Affiche le mois sous la forme d'une abréviation (exemple janvier correspond janv.)</span></p>
+</td>
+</tr>
+<tr valign="middle">
+<td width="110" height="25" valign="middle" style="border-width : 0px; padding: 1px;"><p class="rvps6"><span class="rvts25">MMMM</span></p>
+</td>
+<td width="1042" height="25" valign="middle" style="border-width : 0px; padding: 1px;"><p class="rvps2"><span class="rvts25">Affiche le mois sous la forme d'un nom de mois complet (exemple janvier)</span></p>
+</td>
+</tr>
+<tr valign="middle">
+<td width="110" height="40" valign="middle" style="border-width : 0px; padding: 1px;"><p class="rvps6"><span class="rvts25">y</span></p>
+</td>
+<td width="1042" height="40" valign="middle" style="border-width : 0px; padding: 1px;"><p class="rvps2"><span class="rvts25">Affiche l'année sous un format numérique sans zéros non significatifs (exemple 0-9). Utiliser %Y s'il s'agit du seul caractère dans le format numérique défini par l'utilisateur</span></p>
+</td>
+</tr>
+<tr valign="middle">
+<td width="110" height="37" valign="middle" style="border-width : 0px; padding: 1px;"><p class="rvps6"><span class="rvts6">yy</span></p>
+</td>
+<td width="1042" height="37" valign="middle" style="border-width : 0px; padding: 1px;"><p class="rvps2"><span class="rvts25">Affiche l'année sous un format numérique à deux chiffres avec un zéro non significatif le cas échéant (exemple janvier correspond 01)</span></p>
+</td>
+</tr>
+<tr valign="middle">
+<td width="110" height="24" valign="middle" style="border-width : 0px; padding: 1px;"><p class="rvps6"><span class="rvts6">yyy</span></p>
+</td>
+<td width="1042" height="24" valign="middle" style="border-width : 0px; padding: 1px;"><p class="rvps2"><span class="rvts25">Non disponible</span></p>
+</td>
+</tr>
+<tr valign="middle">
+<td width="110" height="26" valign="middle" style="border-width : 0px; padding: 1px;"><p class="rvps6"><span class="rvts6">yyyy</span></p>
+</td>
+<td width="1042" height="26" valign="middle" style="border-width : 0px; padding: 1px;"><p class="rvps2"><span class="rvts25">Affiche l'année sous un format numérique à Quatre chiffres</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts7"><br/></span></p>
+<p class="rvps3"><span class="rvts7">Respecter la casse (Majuscule/minuscule) et indiquer les séparateurs de votre choix.</span></p>
+<p class="rvps3"><span class="rvts7">Voici quelques exemples de formats de date définis par l'utilisateur pour le </span><span class="rvts18">vendredi 18 janvier 2013.</span></p>
+<p class="rvps2"><span class="rvts7"><br/></span></p>
+<div class="rvps3"><table width="50%" border="1" cellpadding="1" cellspacing="2" style="border-color: #000000; border-style: solid; border-spacing: 2px;">
+<tr valign="middle">
+<td width="138" valign="middle" style="border-color: #000000; border-style: solid; padding: 1px; background-color: #99ccff;"><p class="rvps6"><span class="rvts31">Format</span></p>
+</td>
+<td width="167" valign="middle" style="border-color: #000000; border-style: solid; padding: 1px; background-color: #99ccff;"><p class="rvps6"><span class="rvts31">Affiche</span></p>
+</td>
+</tr>
+<tr valign="middle">
+<td width="138" valign="middle" style="border-color: #000000; border-style: solid; padding: 1px;"><p class="rvps6"><span class="rvts25">dd-MM-yy</span></p>
+</td>
+<td width="167" valign="middle" style="border-color: #000000; border-style: solid; padding: 1px;"><p class="rvps6"><span class="rvts25">18-01-13</span></p>
+</td>
+</tr>
+<tr valign="middle">
+<td width="138" valign="middle" style="border-color: #000000; border-style: solid; padding: 1px;"><p class="rvps6"><span class="rvts25">dd/MM/yy</span></p>
+</td>
+<td width="167" valign="middle" style="border-color: #000000; border-style: solid; padding: 1px;"><p class="rvps6"><span class="rvts25">18/01/13</span></p>
+</td>
+</tr>
+<tr valign="middle">
+<td width="138" valign="middle" style="border-color: #000000; border-style: solid; padding: 1px;"><p class="rvps6"><span class="rvts25">M/d/yy</span></p>
+</td>
+<td width="167" valign="middle" style="border-color: #000000; border-style: solid; padding: 1px;"><p class="rvps6"><span class="rvts25">01/18/13</span></p>
+</td>
+</tr>
+<tr valign="middle">
+<td width="138" valign="middle" style="border-color: #000000; border-style: solid; padding: 1px;"><p class="rvps6"><span class="rvts25">d MMM yy</span></p>
+</td>
+<td width="167" valign="middle" style="border-color: #000000; border-style: solid; padding: 1px;"><p class="rvps6"><span class="rvts25">18 jan. 13</span></p>
+</td>
+</tr>
+<tr valign="middle">
+<td width="138" valign="middle" style="border-color: #000000; border-style: solid; padding: 1px;"><p class="rvps6"><span class="rvts25">d MMMM yyyy</span></p>
+</td>
+<td width="167" valign="middle" style="border-color: #000000; border-style: solid; padding: 1px;"><p class="rvps6"><span class="rvts25">18 janvier 2013</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps3"><span class="rvts7"><br/></span></p>
+<p class="rvps3"><span class="rvts30"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2017 by Visiativ. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

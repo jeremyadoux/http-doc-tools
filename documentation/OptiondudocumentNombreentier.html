@@ -1,0 +1,156 @@
+﻿<html>
+	
+<head>
+	<title>Option du document (Nombre entier)</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Integration_FR.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("OptiondudocumentNombreentier");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Option du document (Nombre entier)</h1>
+				
+				<div id="topic_breadcrumb">
+					Utilisation de &quot;Integration&quot; &rsaquo;&rsaquo; D&eacute;tail des op&eacute;rations &rsaquo;&rsaquo; <a href="Document.html">Document</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="Document.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="OptiondudocumentNombrevirgule.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="OptiondudocumentTexte.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps3"><span class="rvts6"><br/></span></p>
+<p class="rvps3"><span class="rvts7">Opération possible sur les pièces, les assemblages ou les mises en plan. </span><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/Condition00.png"></p>
+<p class="rvps3"><span class="rvts7">Cette opération permet d'accéder aux options type "Valeur entière" des documents. Pour plus d'information sur l'utilisation de ces paramètres, voir aide API (Aide/Aide API).</span></p>
+<p class="rvps3"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/Warning.png"><span class="rvts7"> </span><span class="rvts30">L'utilisation de cette opération est réservée aux utilisateurs avancés.</span></p>
+<p class="rvps3"><span class="rvts7">Le choix se fait parmi une liste d'option correspondant à l'énumérateur "</span><span class="rvts18">swUserPreferenceIntegerValue_e</span><span class="rvts7">" :</span></p>
+<p class="rvps3"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/Oper-document101.png"><span class="rvts7"> &nbsp;</span></p>
+<p class="rvps3"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/Oper-document100.png"><span class="rvts7"> </span></p>
+<p class="rvps3"><span class="rvts7">Le numéro de la valeur est à choisir parmi une liste. Ce numéro doit être numérique. Il peut être saisi au clavier ou à l'aide de la liste déroulante :</span></p>
+<p class="rvps3"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/Propriete9-1.png"><span class="rvts7"> </span></p>
+<p class="rvps3"><span class="rvts7"><br/></span></p>
+<p class="rvps3"><span class="rvts46">Exemple</span><span class="rvts22"> : </span><span class="rvts42">Comment changer les options d'unités du document SOLIDWORKS sur longueur=mm et masse=Kg ?</span></p>
+<p class="rvps3"><span class="rvts42"><br/></span></p>
+<p class="rvps3"><span class="rvts8">- 1° On change les unités du système sur "</span><span class="rvts16">custom</span><span class="rvts8">".</span></p>
+<p class="rvps7"><span class="rvts8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L'option "</span><span class="rvts16">swUnitSystem</span><span class="rvts8">", dans la liste des "Options du document (Nombre entier)",&nbsp;doit être égale à l'enumérateur "</span><span class="rvts16">swUnitSystem_e</span><span class="rvts8">" qui contient&nbsp;:</span></p>
+<p class="rvps3"><span class="rvts8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; swUnitSystem_CGS = 1</span></p>
+<p class="rvps3"><span class="rvts8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; swUnitSystem_MKS = 2</span></p>
+<p class="rvps3"><span class="rvts8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; swUnitSystem_IPS = 3</span></p>
+<p class="rvps3"><span class="rvts8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="rvts16">swUnitSystem_Custom = 4</span></p>
+<p class="rvps3"><span class="rvts8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; swUnitSystem_MMGS = 5</span></p>
+<p class="rvps3"><span class="rvts8"><br/></span></p>
+<p class="rvps3"><span class="rvts8">- 2° On change les unités de longueur sur "</span><span class="rvts16">mm</span><span class="rvts8">".</span></p>
+<p class="rvps7"><span class="rvts8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L'option "</span><span class="rvts16">swUnitsMassPropLength</span><span class="rvts8">", dans la liste des "Options du document (Nombre entier)", doit être égale à l'enumérateur "</span><span class="rvts16">swLengthUnit_e</span><span class="rvts8">" qui contient&nbsp;:</span></p>
+<p class="rvps7"><span class="rvts8"><br/></span></p>
+<p class="rvps12"><span class="rvts16">swMM = 0</span></p>
+<p class="rvps12"><span class="rvts8">swCM = 1</span></p>
+<p class="rvps12"><span class="rvts8">swMETER = 2</span></p>
+<p class="rvps12"><span class="rvts8">swINCHES = 3</span></p>
+<p class="rvps12"><span class="rvts8">swFEET = 4</span></p>
+<p class="rvps12"><span class="rvts8">swFEETINCHES = 5</span></p>
+<p class="rvps12"><span class="rvts8">swANGSTROM = 6</span></p>
+<p class="rvps12"><span class="rvts8">swNANOMETER = 7</span></p>
+<p class="rvps12"><span class="rvts8">swMICRON = 8</span></p>
+<p class="rvps12"><span class="rvts8">swMIL = 9</span></p>
+<p class="rvps12"><span class="rvts8">swUIN = 10</span></p>
+<p class="rvps12"><span class="rvts8"><br/></span></p>
+<p class="rvps3"><span class="rvts8">- 3° On change les unités de masse sur "</span><span class="rvts16">kg</span><span class="rvts8">".</span></p>
+<p class="rvps7"><span class="rvts8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L'option "</span><span class="rvts16">swUnitsMassPropMass</span><span class="rvts8">", dans la liste des "Options du document (Nombre entier)", doit être égale à l'énumérateur "</span><span class="rvts16">swUnitsMassPropMass_e</span><span class="rvts8">" qui contient&nbsp;:</span></p>
+<p class="rvps7"><span class="rvts8"><br/></span></p>
+<p class="rvps3"><span class="rvts8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; swUnitsMassPropMass_Milligrams = 1</span></p>
+<p class="rvps3"><span class="rvts8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; swUnitsMassPropMass_Grams = 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+<p class="rvps3"><span class="rvts8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="rvts16">swUnitsMassPropMass_Kilograms = 3</span></p>
+<p class="rvps3"><span class="rvts8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; swUnitsMassPropMass_Pounds = 4</span></p>
+<p class="rvps3"><span class="rvts16"><br/></span></p>
+<p class="rvps3"><span class="rvts16">Remarque 1:</span></p>
+<p class="rvps7"><span class="rvts8">Pour trouver ces énumérateurs et leurs valeurs, le plus simple est de faire un enregistrement de macro. Ici pour cette même action on retrouve les valeurs expliquées plus haut.</span></p>
+<p class="rvps3"><span class="rvts43"><br/></span></p>
+<p class="rvps3"><span class="rvts44">Sub</span><span class="rvts43"> main()</span></p>
+<p class="rvps11"><span class="rvts44">Set</span><span class="rvts43"> swApp = Application.SldWorks</span></p>
+<p class="rvps11"><span class="rvts44">Set</span><span class="rvts43"> Part = swApp.ActiveDoc</span></p>
+<p class="rvps11"><span class="rvts43">boolstatus = Part.Extension.SetUserPreferenceInteger(swUserPreferenceIntegerValue_e.</span><span class="rvts45">swUnitSystem</span><span class="rvts43">, 0, swUnitSystem_e.swUnitSystem_Custom)</span></p>
+<p class="rvps11"><span class="rvts43">boolstatus = Part.Extension.SetUserPreferenceInteger(swUserPreferenceIntegerValue_e.</span><span class="rvts45">swUnitsMassPropLength</span><span class="rvts43">, 0, swLengthUnit_e.swMM)</span></p>
+<p class="rvps11"><span class="rvts43">boolstatus = Part.Extension.SetUserPreferenceInteger(swUserPreferenceIntegerValue_e.</span><span class="rvts45">swUnitsMassPropMass</span><span class="rvts43">, 0, swUnitsMassPropMass_e.swUnitsMassPropMass_Grams)</span></p>
+<p class="rvps3"><span class="rvts44">End</span><span class="rvts43"> Sub</span></p>
+<p class="rvps3"><span class="rvts8"><br/></span></p>
+<p class="rvps7"><span class="rvts8">Par contre, dans la macro, on ne trouve pas les valeurs (où sont enregistrés les énumérateurs). Pour retrouver la valeur contenue dans un énumérateur, il suffit d'appuyer sur F2 dans l'éditeur de macro et l'explorateur d'objet apparaît. En tapant le nom de l'énumérateur, par exemple «&nbsp;</span><span class="rvts16">swUnitsMassPropMass</span><span class="rvts8">&nbsp;», dans la recherche, on visualise les variables et les valeurs contenues.</span></p>
+<p class="rvps7"><img width="552" height="434" alt="" style="vertical-align: middle; padding : 1px;" src="lib/NouvelElement2.png"><span class="rvts8"> </span></p>
+<p class="rvps3"><span class="rvts16">Remarque 2:</span></p>
+<p class="rvps3"><span class="rvts8">Par cette méthode il est possible de piloter toutes les options de SOLIDWORKS </span></p>
+<p class="rvps3"><span class="rvts8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Case à cocher (exemple "Habillage/Toujours afficher le texte avec la même taille") </span></p>
+<p class="rvps3"><span class="rvts8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nombre entier (exemple changement d'unité comme ci dessus)</span></p>
+<p class="rvps3"><span class="rvts8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nombre à virgule (exemple "Annotation/Longueur de la ligne d'attache")</span></p>
+<p class="rvps3"><span class="rvts8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Texte (exemple "Annotation/Références/Prochain label")</span></p>
+<p class="rvps3"><span class="rvts8"><br/></span></p>
+<p class="rvps3"><span class="rvts16">Remarque 3:</span></p>
+<p class="rvps3"><span class="rvts8">Certaines options sont liées les unes aux autres, comme dans l'exemple ci-dessus.</span></p>
+<p class="rvps3"><span class="rvts8">Si l’on n'avait pas réglé les unités du système sur "</span><span class="rvts16">custom</span><span class="rvts8">", le changement d'unité de masse et de longueur aurait été sans effet.</span></p>
+<p class="rvps3"><span class="rvts8"><br/></span></p>
+<p class="rvps3"><span class="rvts16">Remarque 4:</span></p>
+<p class="rvps3"><span class="rvts8">Ceci permet le réglage des options du document uniquement (onglet "Propriétés du document").</span></p>
+<p class="rvps3"><span class="rvts8">Les options du système ne sont pas concernées par un traitement batch.</span></p>
+<p class="rvps3"><span class="rvts8"><br/></span></p>
+<p class="rvps3"><span class="rvts8"><br/></span></p>
+<p class="rvps3"><span class="rvts8"><br/></span></p>
+<p class="rvps3"><span class="rvts8"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2017 by Visiativ. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

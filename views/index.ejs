@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test</title>
+    <link rel='stylesheet' href='/stylesheets/ui.dynatree.css' />
+    <link rel='stylesheet' href='/stylesheets/base.css' />
+    <link rel='stylesheet' href='/stylesheets/hnd.css' />
+    <link rel='stylesheet' href='/stylesheets/jquery-ui-1.8.12.custom.css' />
+    <link rel='stylesheet' href='/stylesheets/reset.css' />
+    <link rel='stylesheet' href='/stylesheets/toc.css' />
+    <link rel='stylesheet' href='/stylesheets/bootstrap.min.css' />
+    <link rel='stylesheet' href='/stylesheets/custom.css' />
+
+    <script type="text/javascript" src="javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/jquery-ui-1.8.17.custom.min.js"></script>
+    <script type="text/javascript" src="javascripts/jquery.cookie.js"></script>
+    <script type="text/javascript" src="javascripts/jquery.dynatree.min.js"></script>
+    <script type="text/javascript" src="javascripts/hndjsse.js"></script>
+    <script type="text/javascript" src="javascripts/custom.js"></script>
+  </head>
+  <body>
+  <div class="row">
+    <div class="col-md-4" id="left">
+      <%- include('doc/toc.ejs'); %>
+    </div>
+    <div class="col-md-8" id="right">
+      <%- include(page); %>
+    </div>
+  </div>
+  </body>
+</html>

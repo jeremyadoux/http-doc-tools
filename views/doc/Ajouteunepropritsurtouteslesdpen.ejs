@@ -1,0 +1,59 @@
+
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Ajoute une propri&#xE9;t&#xE9; sur toutes les d&#xE9;pendances d&apos;un document</h1>
+				
+				<div id="topic_breadcrumb">
+					Utilisation de &quot;Integration&quot; &#x203A;&#x203A; D&#xE9;tail des op&#xE9;rations &#x203A;&#x203A; <a href="Proprit1.html">Propri&#xE9;t&#xE9;</a> &#x203A;&#x203A; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="Proprit1.html"><img src="img/arrow_up.png" alt="Parent"></a>
+				
+				<a href="Ajouteunepropritdelamiseenplan.html"><img src="img/arrow_left.png" alt="Previous"></a>
+				
+				<a href="AjouteModifieuneproprit1.html"><img src="img/arrow_right.png" alt="Next"></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts7"><br></span></p>
+<p class="rvps3"><span class="rvts7">Op&#xE9;ration possible sur les pi&#xE8;ces, les assemblages ou les mises en plan. </span><img alt="" style="vertical-align: middle; padding : 1px;" src="img/Condition00.png"></p>
+<p class="rvps3"><span class="rvts7">Cette op&#xE9;ration permet de cr&#xE9;er ou de modifier une propri&#xE9;t&#xE9; dans toutes les d&#xE9;pendances du document.</span></p>
+<p class="rvps3"><span class="rvts24">Exemple</span><span class="rvts7"> :</span></p>
+<p class="rvps3"><span class="rvts7">Cr&#xE9;er la propri&#xE9;t&#xE9; &quot;</span><span class="rvts18">Num_Projet</span><span class="rvts7">&quot;, avec la valeur &quot;</span><span class="rvts18">255</span><span class="rvts7">&quot;, dans toutes les d&#xE9;pendances du document s&#xE9;lectionn&#xE9;.</span></p>
+<p class="rvps3"><img alt="" style="padding : 1px;" src="img/Oper-Propriete121.png"></p>
+<p class="rvps3"><span class="rvts7">Si un assemblage est s&#xE9;lectionn&#xE9; : ajoute la propri&#xE9;t&#xE9; &quot;</span><span class="rvts18">Num_Projet</span><span class="rvts7">&quot; dans toutes les pi&#xE8;ces et les sous-assemblages r&#xE9;f&#xE9;renc&#xE9;s dans cet assemblage.</span></p>
+<p class="rvps3"><span class="rvts7">Si une pi&#xE8;ce est s&#xE9;lectionn&#xE9;e : ajoute la propri&#xE9;t&#xE9; &quot;</span><span class="rvts18">Num_Projet</span><span class="rvts7">&quot; dans toutes les d&#xE9;pendances (pi&#xE8;ce sym&#xE9;trique, pi&#xE8;ce d&#xE9;riv&#xE9;e ...).</span></p>
+<p class="rvps3"><span class="rvts7">Si une mise en plan est s&#xE9;lectionn&#xE9;e : ajoute la propri&#xE9;t&#xE9; &quot;</span><span class="rvts18">Num_Projet</span><span class="rvts7">&quot; dans toutes les d&#xE9;pendances de cette mise en plan.</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps3"><span class="rvts7">On peut ajouter &quot;</span><span class="rvts18">|1</span><span class="rvts7">&quot; &#xE0; la fin de la propri&#xE9;t&#xE9; pour ne modifier que le 1er niveau de d&#xE9;pendance.</span></li>
+</ul>
+<p class="rvps3"><img alt="" style="padding : 1px;" src="img/Oper-Propriete122.png"></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps3"><span class="rvts7">Vous pouvez &#xE9;galement utiliser les instructions cod&#xE9;es pour sp&#xE9;cifier la valeur de remplacement.</span></li>
+</ul>
+<p class="rvps3"><img alt="" style="vertical-align: middle; padding : 1px;" src="img/Warning.png"><span class="rvts7"> </span><span class="rvts30">BIEN RESPECTER LA CASSE</span></p>
+<p class="rvps3"><img alt="" style="vertical-align: middle; padding : 1px;" src="img/Oper-Propriete123.png"></p>
+<p class="rvps3"><span class="rvts7"><br></span></p>
+<p class="rvps3"><span class="rvts18">&lt;FileName&gt;</span><span class="rvts7"> pour afficher le nom du document.</span></p>
+<p class="rvps3"><span class="rvts18">&lt;PathName&gt;</span><span class="rvts7"> pour afficher le chemin complet de sauvegarde du document.</span></p>
+<p class="rvps3"><span class="rvts18">$Nom de la propri&#xE9;t&#xE9;</span><span class="rvts7"> </span><span class="rvts8">pour afficher une valeur de propri&#xE9;t&#xE9; du document (si le nom de la propri&#xE9;t&#xE9; contient un espace, utiliser </span><span class="rvts16">%20%</span><span class="rvts8"> pour remplacer cet espace).</span></p>
+<p class="rvps3"><span class="rvts18">&lt;Configuration&gt;</span><span class="rvts7"> pour afficher le nom de la configuration active du document.</span></p>
+<p class="rvps3"><span class="rvts18">&lt;Date&gt;</span><span class="rvts7"> pour afficher la date.</span></p>
+<p class="rvps3"><span class="rvts18">&lt;Time&gt;</span><span class="rvts7"> pour afficher l&apos;heure.</span></p>
+<p class="rvps3"><span class="rvts18">&lt;NewLine&gt;</span><span class="rvts7"> pour passer &#xE0; la ligne.</span></p>
+<p class="rvps3"><span class="rvts7"><br></span></p>
+<p class="rvps3"><span class="rvts30"><br></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &#xA9; 2017 by Visiativ. All Rights Reserved.</div>
+		</div>
+	

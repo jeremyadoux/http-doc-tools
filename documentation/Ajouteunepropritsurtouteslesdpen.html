@@ -1,0 +1,110 @@
+﻿<html>
+	
+<head>
+	<title>Ajoute une propri&eacute;t&eacute; sur toutes les d&eacute;pendances d'un document</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Integration_FR.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("Ajouteunepropritsurtouteslesdpen");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Ajoute une propri&eacute;t&eacute; sur toutes les d&eacute;pendances d'un document</h1>
+				
+				<div id="topic_breadcrumb">
+					Utilisation de &quot;Integration&quot; &rsaquo;&rsaquo; D&eacute;tail des op&eacute;rations &rsaquo;&rsaquo; <a href="Proprit1.html">Propri&eacute;t&eacute;</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="Proprit1.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Ajouteunepropritdelamiseenplan.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="AjouteModifieuneproprit1.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts7"><br/></span></p>
+<p class="rvps3"><span class="rvts7">Opération possible sur les pièces, les assemblages ou les mises en plan. </span><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/Condition00.png"></p>
+<p class="rvps3"><span class="rvts7">Cette opération permet de créer ou de modifier une propriété dans toutes les dépendances du document.</span></p>
+<p class="rvps3"><span class="rvts24">Exemple</span><span class="rvts7"> :</span></p>
+<p class="rvps3"><span class="rvts7">Créer la propriété "</span><span class="rvts18">Num_Projet</span><span class="rvts7">", avec la valeur "</span><span class="rvts18">255</span><span class="rvts7">", dans toutes les dépendances du document sélectionné.</span></p>
+<p class="rvps3"><img alt="" style="padding : 1px;" src="lib/Oper-Propriete121.png"></p>
+<p class="rvps3"><span class="rvts7">Si un assemblage est sélectionné : ajoute la propriété "</span><span class="rvts18">Num_Projet</span><span class="rvts7">" dans toutes les pièces et les sous-assemblages référencés dans cet assemblage.</span></p>
+<p class="rvps3"><span class="rvts7">Si une pièce est sélectionnée : ajoute la propriété "</span><span class="rvts18">Num_Projet</span><span class="rvts7">" dans toutes les dépendances (pièce symétrique, pièce dérivée ...).</span></p>
+<p class="rvps3"><span class="rvts7">Si une mise en plan est sélectionnée : ajoute la propriété "</span><span class="rvts18">Num_Projet</span><span class="rvts7">" dans toutes les dépendances de cette mise en plan.</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps3"><span class="rvts7">On peut ajouter "</span><span class="rvts18">|1</span><span class="rvts7">" à la fin de la propriété pour ne modifier que le 1er niveau de dépendance.</span></li>
+</ul>
+<p class="rvps3"><img alt="" style="padding : 1px;" src="lib/Oper-Propriete122.png"></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps3"><span class="rvts7">Vous pouvez également utiliser les instructions codées pour spécifier la valeur de remplacement.</span></li>
+</ul>
+<p class="rvps3"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/Warning.png"><span class="rvts7"> </span><span class="rvts30">BIEN RESPECTER LA CASSE</span></p>
+<p class="rvps3"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/Oper-Propriete123.png"></p>
+<p class="rvps3"><span class="rvts7"><br/></span></p>
+<p class="rvps3"><span class="rvts18">&lt;FileName&gt;</span><span class="rvts7"> pour afficher le nom du document.</span></p>
+<p class="rvps3"><span class="rvts18">&lt;PathName&gt;</span><span class="rvts7"> pour afficher le chemin complet de sauvegarde du document.</span></p>
+<p class="rvps3"><span class="rvts18">$Nom de la propriété</span><span class="rvts7"> </span><span class="rvts8">pour afficher une valeur de propriété du document (si le nom de la propriété contient un espace, utiliser </span><span class="rvts16">%20%</span><span class="rvts8"> pour remplacer cet espace).</span></p>
+<p class="rvps3"><span class="rvts18">&lt;Configuration&gt;</span><span class="rvts7"> pour afficher le nom de la configuration active du document.</span></p>
+<p class="rvps3"><span class="rvts18">&lt;Date&gt;</span><span class="rvts7"> pour afficher la date.</span></p>
+<p class="rvps3"><span class="rvts18">&lt;Time&gt;</span><span class="rvts7"> pour afficher l'heure.</span></p>
+<p class="rvps3"><span class="rvts18">&lt;NewLine&gt;</span><span class="rvts7"> pour passer à la ligne.</span></p>
+<p class="rvps3"><span class="rvts7"><br/></span></p>
+<p class="rvps3"><span class="rvts30"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2017 by Visiativ. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

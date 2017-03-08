@@ -1,0 +1,113 @@
+﻿<html>
+	
+<head>
+	<title>Ajouter une ou plusieurs &quot;Conditions&quot;</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Integration_FR.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("AjouteruneouplusieursConditions");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Ajouter une ou plusieurs &quot;Conditions&quot;</h1>
+				
+				<div id="topic_breadcrumb">
+					Utilisation de &quot;Integration&quot; &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="UtilisationdeIntegration.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Icnesdanslesconditionsetopration.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="Dfinitiondesconditionsdansledoss.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps3"><span class="rvts7"><br/></span></p>
+<p class="rvps2"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/Definition condition.png"><span class="rvts7"> </span></p>
+<p class="rvps2"><span class="rvts7"><br/></span></p>
+<p class="rvps3"><span class="rvts7">Les conditions sont à sélectionner parmi la liste proposée. Ces conditions peuvent être fonction de :</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps3"><span class="rvts7">"</span><a class="rvts17" href="Proprit.html">Propriété</a><span class="rvts7">" - existante ou non - égale ou différente à une certaine valeur etc ...</span></li>
+<li class="rvps3"><span class="rvts7">"</span><span class="rvts17">SOLIDWORKS</span><span class="rvts7">" - éventuellement par rapport au niveau de version de SOLIDWORKS</span></li>
+<li class="rvps3"><span class="rvts7">"</span><a class="rvts17" href="Configuration1.html">Configuration</a><span class="rvts7">" - existence d'une configuration particulière - nombre de configurations présentes dans le document etc ...</span></li>
+<li class="rvps3"><span class="rvts7">"</span><a class="rvts17" href="Document1.html">Document</a><span class="rvts7">" - si le document est une pièce, un assemblage ou une mise en plan - si le document comporte des équations - si le nom contient N caractères etc ... </span></li>
+<li class="rvps3"><span class="rvts7">"</span><a class="rvts17" href="Pice1.html">Pièce</a><span class="rvts7">" - si la pièce contient N corps volumiques, surfaciques - si la pièce est un mécano-soudé etc ...</span></li>
+<li class="rvps3"><span class="rvts7">"</span><a class="rvts17" href="Assemblage1.html">Assemblage</a><span class="rvts7">" - si l'assemblage contient N pièces - N niveau(x) - un composant particulier etc ...</span></li>
+<li class="rvps3"><span class="rvts7">"</span><a class="rvts17" href="Plan1.html">Plan</a><span class="rvts7">" - si la mise en plan contient N feuille(s) - si la feuille N est un format particulier - si la mise en plan référence un document particulier etc ...</span></li>
+</ul>
+<p class="rvps3"><span class="rvts7"><br/></span></p>
+<p class="rvps3"><span class="rvts7">Les conditions peuvent être glissées :</span></p>
+<ul style="text-indent: 0px; margin-left: 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps3"><span class="rvts7">soit dans le dossier "</span><a class="rvts17" href="Dfinitiondesconditionsdansledoss.html">Et</a><span class="rvts7">" - dans ce cas toutes les conditions doivent être respectées pour appliquer l'opération</span></li>
+<li class="rvps3"><span class="rvts7">soit dans le dossier "</span><a class="rvts17" href="Dfinitionduneconditiondansledoss.html">Ou</a><span class="rvts7">" - dans ce cas toutes les conditions ne sont pas nécessaire d'être respectées</span></li>
+</ul>
+<p class="rvps3"><span class="rvts7"><br/></span></p>
+<p class="rvps3"><span class="rvts7">Toutes les conditions détaillées ci-après peuvent être déposées soit dans le dossier "Et" soit dans le dossier "Ou".</span></p>
+<p class="rvps3"><img alt="" style="padding : 1px;" src="lib/Condition0.png"><span class="rvts7"> </span></p>
+<p class="rvps3"><span class="rvts7">Lorsque qu'une condition est sélectionnée dans la liste des conditions, un icône vous indique pour quel(s) document(s) elle sera prise en compte :</span></p>
+<p class="rvps3"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/Condition00.png"><span class="rvts7"> Indique que la condition est possible pour les documents Pièce, Assemblage et Mise en plan.</span></p>
+<p class="rvps3"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/Condition000.png"><span class="rvts7"> Indique que la condition est possible pour les documents Pièce, Assemblage.</span></p>
+<p class="rvps3"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/Condition0000.png"><span class="rvts7"> Indique que la condition est possible uniquement pour les documents Mises en plan.</span></p>
+<p class="rvps3"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/Condition00000.png"><span class="rvts7"> Indique que la condition est possible uniquement pour les documents Pièces.</span></p>
+<p class="rvps3"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/Condition000000.png"><span class="rvts7"> Indique que la condition est possible uniquement pour les documents Assemblages.</span></p>
+<p class="rvps3"><span class="rvts7"><br/></span></p>
+<p class="rvps3"><span class="rvts7"><br/></span></p>
+<p class="rvps3"><span class="rvts7"><br/></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; 2017 by Visiativ. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

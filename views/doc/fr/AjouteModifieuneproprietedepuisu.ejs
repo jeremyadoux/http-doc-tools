@@ -1,0 +1,64 @@
+
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Ajoute-Modifie une propri&#xE9;t&#xE9; depuis une table Excel</h1>
+				
+				<div id="topic_breadcrumb">
+					Utilisation de &quot;Integration&quot; &#x203A;&#x203A; D&#xE9;tail des op&#xE9;rations &#x203A;&#x203A; <a href="Proprit1.html">Propri&#xE9;t&#xE9;</a> &#x203A;&#x203A; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="Proprit1.html"><img src="fr/imgspec/arrow_up.png" alt="Parent"></a>
+				
+				<a href="AjouteModifieuneproprit1.html"><img src="fr/imgspec/arrow_left.png" alt="Previous"></a>
+				
+				<a href="AjouteModifieuneproprieteSOLIDWO.html"><img src="fr/imgspec/arrow_right.png" alt="Next"></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts7"><br></span></p>
+<p class="rvps3"><span class="rvts7">Op&#xE9;ration possible sur les pi&#xE8;ces, les assemblages ou les mises en plan. </span><img alt="" style="vertical-align: middle; padding : 1px;" src="fr/imgspec/Condition00.png"></p>
+<p class="rvps3"><span class="rvts7">Cette op&#xE9;ration permet de cr&#xE9;er ou de modifier la valeur d&apos;une propri&#xE9;t&#xE9; des fichiers s&#xE9;lectionn&#xE9;s, en r&#xE9;cup&#xE9;rant la valeur depuis une table Excel.</span></p>
+<p class="rvps3"><span class="rvts7"><br></span></p>
+<p class="rvps3"><img alt="" style="vertical-align: middle; padding : 1px;" src="fr/imgspec/Warning.png"><span class="rvts7"> L&apos;utilitaire se connecte une seule fois lorsque le bouton </span><img alt="" style="vertical-align: middle; padding : 1px;" src="fr/imgspec/BoutonAppliquerTout.png"><span class="rvts7"> est s&#xE9;lectionn&#xE9;. Si entre temps vous modifiez le fichier Excel celui-ci n&apos;est pas mis &#xE0; jour dans l&apos;utilitaire. Pour prendre en compte les modifications il faut sortir de l&apos;utilitaire et le relancer afin que la table soit recharg&#xE9;e.</span></p>
+<p class="rvps3"><span class="rvts7"><br></span></p>
+<p class="rvps3"><span class="rvts24">Exemple</span><span class="rvts7"> :</span></p>
+<p class="rvps3"><span class="rvts7">La propri&#xE9;t&#xE9; &quot;</span><span class="rvts18">Code_Article</span><span class="rvts7">&quot; doit &#xEA;tre cr&#xE9;&#xE9;e (ou modifi&#xE9;e si elle existe) en r&#xE9;cup&#xE9;rant la valeur contenue dans le fichier Excel &quot;</span><span class="rvts18">Extract.xlsx</span><span class="rvts7">&quot; correspondant &#xE0; la colonne &quot;</span><span class="rvts18">Code</span><span class="rvts7">&quot; de la premi&#xE8;re feuille &quot;</span><span class="rvts18">1</span><span class="rvts7">&quot;pour les fichiers s&#xE9;lectionn&#xE9;s.</span></p>
+<p class="rvps3"><span class="rvts7"><br></span></p>
+<p class="rvps3"><img alt="" style="vertical-align: middle; padding : 1px;" src="fr/imgspec/Oper-Propriete2111.png"><span class="rvts7"> </span></p>
+<p class="rvps3"><span class="rvts7"><br></span></p>
+<p class="rvps3"><span class="rvts7">Le formatage des crit&#xE8;res avec comme s&#xE9;parateur &quot;</span><span class="rvts18">|</span><span class="rvts7">&quot; se d&#xE9;compose comme suit et permet de codifier la cellule &#xE0; lire:</span></p>
+<p class="rvps3"><span class="rvts7">1 =&gt; N&#xB0; de la feuille Excel &#xE0; utiliser</span></p>
+<p class="rvps3"><span class="rvts7">&lt;PathName&gt; =&gt; Quelle est la ligne s&#xE9;lectionn&#xE9;e.</span></p>
+<p class="rvps3"><span class="rvts7">Code =&gt; Nom de la colonne &quot;Code&quot; &#xE0; lire. On peut &#xE9;galement utiliser &quot;</span><span class="rvts18">*</span><span class="rvts7">&quot; pour prendre toute les colonnes.</span></p>
+<p class="rvps3"><span class="rvts7"><br></span></p>
+<p class="rvps3"><img alt="" style="vertical-align: middle; padding : 1px;" src="fr/imgspec/Oper-Propriete210.png"><span class="rvts7"> </span></p>
+<p class="rvps3"><span class="rvts7"><br></span></p>
+<p class="rvps3"><span class="rvts7">Exemple pour la s&#xE9;lection des fichiers suivants :</span></p>
+<p class="rvps3"><span class="rvts7"><br></span></p>
+<p class="rvps3"><img alt="" style="padding : 1px;" src="fr/imgspec/Oper-Propriete213.png"></p>
+<p class="rvps3"><span class="rvts7"><br></span></p>
+<p class="rvps3"><span class="rvts7">Pour le fichier : &quot;180-Arbre&quot; la propri&#xE9;t&#xE9; &quot;Code_Article&quot; prendra la valeur &quot;180-24&quot;.</span></p>
+<p class="rvps3"><span class="rvts7">Pour le fichier : &quot;180-disque&quot; la propri&#xE9;t&#xE9; &quot;Code_Article&quot; prendra la valeur &quot;180-26&quot;.</span></p>
+<p class="rvps3"><span class="rvts7">Pour le fichier : &quot;180-manille-malle&quot; la propri&#xE9;t&#xE9; &quot;Code_Article&quot; prendra la valeur &quot;180-29&quot;.</span></p>
+<p class="rvps3"><span class="rvts7"><br></span></p>
+<p class="rvps3"><span class="rvts7">Les cl&#xE9;s utilisables pour le deuxi&#xE8;me champs :</span></p>
+<p class="rvps3"><span class="rvts18">&lt;PathName&gt;</span><span class="rvts7"> &#xA0;=&gt; &#xA0;Adresse compl&#xE8;te du fichier</span></p>
+<p class="rvps3"><span class="rvts18">&lt;FileName&gt;</span><span class="rvts7"> &#xA0;=&gt; &#xA0;Nom du fichier</span></p>
+<p class="rvps3"><span class="rvts18">&lt;$Propri&#xE9;t&#xE9;&gt;</span><span class="rvts7"> &#xA0;=&gt; &#xA0;Valeur de la propri&#xE9;t&#xE9;</span></p>
+<p class="rvps3"><span class="rvts7">Et, de mani&#xE8;re facultative, on peut utiliser en compl&#xE9;ment du second champ la cl&#xE9; </span><span class="rvts18">&lt;Configuration&gt;</span><span class="rvts7"> &#xA0;=&gt; &#xA0;Nom de la colonne qui contient le nom de la configuration o&#xF9; cr&#xE9;er la propri&#xE9;t&#xE9; (sinon la propri&#xE9;t&#xE9; est cr&#xE9;&#xE9;e sur le document).</span></p>
+<p class="rvps3"><span class="rvts7"><br></span></p>
+<p class="rvps3"><span class="rvts7"><br></span></p>
+<p></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &#xA9; 2017 by Visiativ. All Rights Reserved.</div>
+		</div>
+	

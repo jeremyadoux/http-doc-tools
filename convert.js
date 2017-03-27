@@ -5,6 +5,12 @@ var fs = require( 'fs' );
 var path = require( 'path' );
 var cheerio = require('cheerio');
 
+const translateClient = require('@google-cloud/translate')({
+    projectId: 'translationtest-161115',
+    keyFilename: 'translationTest-51ede6514eb3.json'
+});
+
+
 let folderDoc = "documentation";
 let menuFile = "toc.html";
 let convertTargetFolder = "views/doc";
@@ -13,27 +19,31 @@ let convertTargetFolder = "views/doc";
 init();
 
 function init() {
-    cleanDocFolder().then(function() {
+    cleanDocFolder('fr,en').then(function() {
         console.log('wool');
         convertAllToStandard();
     });
 }
 
-function cleanDocFolder() {
+function cleanDocFolder(languages) {
     let promises = [];
 
     return new Promise(function(resolve, reject) {
-        fs.readdir( convertTargetFolder, function( err, files ) {
-            if( err ) {
-                console.error( "Could not list the directory.", err );
-                process.exit( 1 );
-            }
-            files.forEach( function( file, index ) {
-                fs.unlink(path.join(convertTargetFolder, file), function() {
-                    promises.push();
+
+        languages.split(',').forEach(function(language){
+            fs.readdir( convertTargetFolder + '/' + language, function( err, files ) {
+                if( err ) {
+                    console.error( "Could not list the directory.", err );
+                    process.exit( 1 );
+                }
+                files.forEach( function( file, index ) {
+                    fs.unlink(path.join(convertTargetFolder + '/' + language, file), function() {
+                        promises.push();
+                    });
                 });
             });
-        });
+        })
+
         resolve(promises);
     });
 }
@@ -69,14 +79,36 @@ function convertAllToStandard() {
             });
         } );
     });
+
+
 }
 
 function writeDataToFile(data, file) {
     return new Promise(function(resolve, reject) {
-        fs.writeFile(path.join( convertTargetFolder, file.replace('html', 'ejs') ) , data, function(err) {
+        fs.writeFile(path.join( convertTargetFolder + '/fr' , file.replace('html', 'ejs') ) , data.replace(/img\//g, "fr/imgspec/"), function(err) {
             if(err) {
                 return console.log(err);
             }
+
+            var options = {
+                from: 'fr',
+                to: 'en',
+                format: 'html'
+            };
+
+            translateClient.translate(data.replace(/img\//g, "en/imgspec/"), options, function (err, translations) {
+                console.log(err);
+                if (!err) {
+                    console.log(translations);
+
+                    fs.writeFile(path.join( convertTargetFolder + '/en', file.replace('html', 'ejs')), translations, function(err) {
+                        if (err) {
+                            return console.error(err);
+                        }
+                    }.bind({file : file}));
+
+                }
+            });
 
             console.log("The node was saved!");
         });

@@ -32,4 +32,10 @@ body, html {
 #right {
     height:100%;
     text-align: center;
+    padding: 0px;
+}
+
+
+.selected {
+    border-bottom: 6px #36ff30 solid;
 }

@@ -7,12 +7,13 @@
     "convert": "node convert.js"
   },
   "dependencies": {
-    "cheerio": "latest",
+    "@google-cloud/translate": "^0.7.0",
     "body-parser": "~1.16.0",
+    "cheerio": "latest",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.0",
     "ejs": "~2.5.5",
-    "express": "~4.14.1",
+    "express": "^4.14.1",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.2"
   }

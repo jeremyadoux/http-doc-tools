@@ -24,7 +24,7 @@ body {
 /* Backgrounds */
 
 #topic_header {
-	background: #fff url(../img/header-bg.png) repeat-x left top;
+	background: url(../img/header.png) repeat-x left bottom;
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 15px;
 }

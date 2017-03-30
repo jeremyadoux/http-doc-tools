@@ -122,7 +122,8 @@ function convertHtml() {
 
 function writeDataToFile(data, file) {
     return new Promise(function(resolve, reject) {
-        fs.writeFile(path.join( convertTargetFolder, fromLanguage, file.replace('html', 'ejs') ) , data.replace(/lib\//g, "fr/imgspec/"), function(err) {
+        data = data.replace(/lib\//g, "imgspec/").replace(/img\//g, "/img/");
+        fs.writeFile(path.join( convertTargetFolder, fromLanguage, file.replace('html', 'ejs') ) , data, function(err) {
             if(err) {
                 return console.log(err);
             }
@@ -134,7 +135,7 @@ function writeDataToFile(data, file) {
                     format: 'html'
                 };
 
-                translateClient.translate(data.replace(/lib\//g, path.join(language, translatedImagesDirectory, '/')), options, function (err, translations) {
+                translateClient.translate(data, options, function (err, translations) {
                     if(err)
                     {
                         console.log(err);

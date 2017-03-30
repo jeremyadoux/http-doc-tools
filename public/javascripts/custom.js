@@ -200,3 +200,32 @@ function PerformSearch()
     }
 }
 
+function switchLanguage(lang)
+{
+    if(typeof localStorage!='undefined') {
+        // Récupération de la valeur dans web storage
+        localStorage.setItem('language', lang);
+    } else {
+        alert("localStorage n'est pas supporté");
+    }
+}
+
+function getUserLanguage()
+{
+    var language = 'fr';
+
+    if(typeof localStorage!='undefined') {
+        // Récupération de la valeur dans web storage
+        language = localStorage.getItem('language');
+
+        if(language === undefined || language === null)
+        {
+            language = navigator.language || navigator.userLanguage;
+        }
+
+    } else {
+        language = navigator.language || navigator.userLanguage;
+    }
+
+    return language;
+}

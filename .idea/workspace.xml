@@ -2,772 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daeb9a1c-76ed-45c8-8d57-9e04c9da02b6" name="Default" comment="Version draft avec :&#10;-Traduction via google translate API&#10;-gestion de l'enregistrement du choix de la langue dans le local storage&#10;-récupération du title de la page courante&#10;-gestion des images i18n">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Accslaide.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Activeuneconfiguration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Activeuneorientation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Activeunescne.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/AfficheCacheuncalque.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Ajoutdansunrapportlalistedesprop.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/AjouteModifieuneproprieteSOLIDWO.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/AjouteModifieuneproprietedepuis1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/AjouteModifieuneproprietedepuisu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/AjouteModifieuneproprit1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Ajouteladatedujour.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/AjouteruneouplusieursConditions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/AjouteruneouplusieursOprations.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Ajouteunefeuille.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Ajouteunepropritdelamiseenplan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Ajouteunepropritdelapiceassembla.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Ajouteunepropritdelassemblagepar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Ajouteunepropritsurtouteslesdpen.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Assemblage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Assemblage1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Barredefonctionsdelaliste.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Changerlacouleur.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Changerlacouleurduncalque.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Changerleformatdeladate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Changerlematriau.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Changernormedhabillagedesnotesdi.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Changerunenormedhabillage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Concatnation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Configuration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Configuration1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Configurations.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Copiertouteslesoptionsdudocumen1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Copiertouteslesoptionsdudocumen2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Copiertouteslesoptionsdudocumen3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Copiertouteslesoptionsdudocument.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Creruncalque.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Crerundocumentplanparfeuille.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Creruneaction.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Crerunemiseenplanpartirdunplane1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Crerunrapportdecontrle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Dclinelesconfigurations.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Dfinitiondesconditionsdansledoss.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Dfinitionduneconditiondansledoss.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Dfinitionduneopration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Divers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Diviselaproprit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Document.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Document1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Dupliquerunefeuille.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Effacedespropritssaufcellesspcif.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Effacelesproprietesdeslistesdepi.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Effaceuneproprit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Emplacement.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Enfonctiondelatabledefamille.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Excuteunprogrammeautonome.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Exemplederapport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Export.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/ExporterauformatExcellestablesde.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Exporterlefichier.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Exporterlefichier1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Exporterlefichier2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Fermertouslesdocuments.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/FixerLibrer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Gestiondelabarredeblocage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Gestiondelaperspective.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Gestiondelombre.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/GestionduRealView.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Gestionduprojet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Gestiondustyledaffichage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Gnral.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Gnralitsdesutilitaires.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Groupesdeconditionsdansledossier.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Icnesdanslesconditionsetopration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Imprimeledocument.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Incrementeunevaleurdeproprieteav.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Incrmenteunevaleurdeproprit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Insrerunenomenclaturedansunefeui.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Insrerunetabledervisiondanslesfe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Insreruntamponimagesurleplan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Integration_FR.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Introduction1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Lacouleurdelapiceest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Ladatedenregistrementdudocumente.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/LafeuilleNestunformat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Lancementdunemacro.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Lapicecontientuneesquissesouscon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Lapicecontientunefonctionenerreu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/LapiceestdetypeToolbox.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Lapiceestunepicedetlerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Lapiceestunmcanosoud.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Lapiceestunmcanosoudouunepicedet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/LassemblagecontientNcomposants.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/LassemblagecontientNcomposantsv1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/LassemblagecontientNniveaux.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Lassemblagecontientdescontrainte.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Lassemblagecontientuncomposantpa.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Ledocumentadesrfrencesexternes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Ledocumentappartientaundossiersp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/LedocumentcomporteNcorpssurfaciq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/LedocumentcomporteNcorpsvolumiqu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/LedocumentcontientNconfiguration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Ledocumentcontientdesequations.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Ledocumentcontientuneconfigurat1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Ledocumentcontientuneconfigurat2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Ledocumentcontientuneconfigurati.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/LedocumentestgaluneversiondeSoli.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Ledocumentestunassemblage1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Ledocumentestunemiseenplan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Ledocumentestunepice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Ledocumentestutilisdansunemiseen.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Ledocumentestutilisedansunassemb.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Lematriaudfiniest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Lenombredecaractresdelavaleur.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Lenomdelaconfigurationactiveestg.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/LenomdudocumentcontientNcaractre.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Lenomdudocumentcorrespondunforma.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Lenomdudocumentestgal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Lenomdudocumentestgaluneproprit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/LeplancontientNcalques.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/LeplancontientNfeuilles.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Leplancontientunetable.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Leplancontientunnomdecalqueparti.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Leplancontientunnomdefeuillepart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Leplancontientunnomdefonddeplanp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Leplanrfrenceundocumentparticuli.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Leplanrfrenceuntypededocumentpar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Lesoptions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Lestandarddelanormedhabillagepou.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Letypedudocumentestuncomposantin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Listedescritresdemodification.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Mentionslgales.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Menuscontextuelsdelarbreduprojet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/MiseajourSpeedpak.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Misejourdesmcanosouds.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Misejourdespropritsdetlerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Modifierlattributdelectureseule1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Modifierlattributdelectureseuled.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Modifierletextedunenote.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Modifieunchampdansunevaleurdepro.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/ModifieunepropritdusommaireWindo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Nouveauchapitre67.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Nouveauchapitre68.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Nouveauchapitre69.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/OptiondudocumentCasecocher.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/OptiondudocumentNombreentier.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/OptiondudocumentNombrevirgule.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/OptiondudocumentTexte.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Optionsdenomenclatureaffichagede.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Optionsdenomenclaturenumerodepie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Pice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Pice1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Placerlalistedesrfrencesexternes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Placerlerapportdesoprationsdansu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Placerlesvignettesdesdocumentsda.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Placerletestdesconditionsdansunr.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Placeruntextelibredanslerapport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Placeruntitrenomdudocumentanalys.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Plan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Plan1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Proprit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Proprit1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/PrsentationdelutilitaireIntegrat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Question.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Rapport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Rcupreunepartiedeproprit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Reconstructiondechaqueconfigurat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Reconstructionetbarredereprise.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Reconstruirelesfeuillesdunemisee.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Recopielensembledesproprietesdud.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Reglesdenommage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Remplacerlefonddeplandesfeuilles.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Remplacerlefonddeplandesfeuillet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Remplacerlefonddeplandunfeuille1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Remplacerlefonddeplandunfeuillet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Remplaceruncomposant.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Renommelaconfiguration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Renommeruncalque.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/RsoudreAllger.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Silabarredeblocageestpresentepar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Slectiondesrpertoiresetdesfichie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/SmartCounter1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/SolidWorks.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Supprimelatabledefamille.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Supprimelesconfigurationsinactiv.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Supprimercertainescotesdesmisese.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Supprimerlestablessurleplan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Supprimeruncomposant.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Supprimeuncalque.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Supprimeuneconfiguration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Systmatique.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Table.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Testdansunexeautonome.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/UnepropritWindowsestgale.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Unepropritestgaleoudiffrentedune.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Unepropritexiste.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Unepropritexisteavecunevaleurdo1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Unepropritexisteavecunevaleurdo2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Unepropritexisteavecunevaleurdo3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Unepropritexisteavecunevaleurdon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Unepropritnexistepas.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/Zoomtout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/toc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Action syst.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Action1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Alleger-Resoudre.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Application_Police.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Assemblage0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Assemblage1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Assemblage2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Assemblage3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Assemblage4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Assemblage5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/BoutonAppliquerTout.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Caractere_div0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Changer_Police.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Choix_Formats1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Choix_Nombres2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Choix_Police.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Clic Droit Conditions.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Clic Droit Operations.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Collapse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Condition0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Condition00.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Condition000.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Condition0000.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Condition00000.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Condition000000.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Condition1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Condition2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Condition3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Condition4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Config1-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Config1-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Config1-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Configuration0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Configuration00.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Configuration1-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Configuration1-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Configuration1-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Configuration1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Configuration3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Couleur_Calque.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/CouleursRal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/CouleursRal1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/CouleursStd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/CouleursStd1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Creation action0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Creation action3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Definition condition.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Desc_Configuration.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Desc_Configuration0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document0-.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document1-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document1-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document1-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document10-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document10-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document18-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document19-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document20-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document21-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document9-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Document9-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Duplique Action.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Efface liste en cours.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Emplacement_Plans.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Event Syst2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Events_Sel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Exemple de rapport.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Expand.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Export_Espace-Papier.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Export_eDrawings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Feuilles_Mises_En_Plan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Fleche descente.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Fleche monte.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/FormatsExport.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/FormatsExport1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Group ou 0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Icone Ajout Dossier.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Icone Dossier Dessus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Icone Dossier Parent.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Icone Integration.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Icone Supp Dossier.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Ide-Astuce.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Liste Format Date.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Liste des critres de modification.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Liste des critres de modification1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Liste develop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Liste reduite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Liste_Increment0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Menu criteres.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Menu_LargeImage-2016.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/MyCAD 32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/New.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Niveau_Config.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Nom spcifique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement101.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement102.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement103.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement104.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement105.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement106.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement107.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement108.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement109.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement110.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement111.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement113.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement114.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement115.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement116.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement117.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement118.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement119.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement120.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement121.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement122.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement123.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement124.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement125.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement126.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement127.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement129.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement130.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement131.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement132.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement133.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement134.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement135.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement136.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement137.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement138.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement139.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement141.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement142.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement143.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement145.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement146.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement147.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement148.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement149.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement150.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement151.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement152.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement153.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement154.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement155.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement156.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement157.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement158.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement159.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement160.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement161.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement162.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement163.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement164.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement165.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement166.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement167.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement168.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement169.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement170.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement171.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement172.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement173.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement174.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement44.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement45.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement46.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement51.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement52.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement53.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement55.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement56.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement58.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement59.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement61.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement62.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement63.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement65.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement66.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement67.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement68.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement69.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement70.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement71.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement73.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement74.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement75.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement77.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement78.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement79.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement80.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement81.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement82.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement83.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement84.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement85.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement86.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement87.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement88.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement89.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement90.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement91.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement92.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement93.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement94.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement95.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement97.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement98.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/NouvelElement99.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Numro de pice.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Ombre.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Omettre_CaseACocher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Omettre_NombreAVirgule.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Omettre_NombreEntier.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Omettre_Texte.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete121.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete122.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete123.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete141.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete151.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete152.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete201.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete202.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete203.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete204.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete210.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete2111.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete213.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete22-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-Propriete9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-assemblage0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-assemblage1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-assemblage2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-assemblage3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-assemblage33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-assemblage4-.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-assemblage42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-config1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-config2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-config3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-config4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-configuration0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-divers0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-divers1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-divers20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-divers23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-divers30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-divers40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-divers5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-divers6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document101.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document111.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document131.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document132.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document52.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document91.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-document92.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-piece1011.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-piece2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-piece30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-piece41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-piece42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan111.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan113.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan131.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan132.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan133.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan134.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan151.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan152.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan181.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan210.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oper-plan9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Operation1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Operation2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Opr-Barre de blocage 1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Opr-Barre de blocage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Opr-option de nomenclature.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Opr-option de nomenclature2-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Option de nomenclature.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Options0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/OptionsFile0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/OptionsGeneral1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/OptionsGeneral2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/OptionsGeneral3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/OptionsGeneral4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/OptionsGeneral5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/OptionsGeneral51.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/OptionsGeneral52.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/OptionsGeneral53.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/OptionsGeneral54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/OptionsGeneral55.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/OptionsGeneral56.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/OptionsGeneral57-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/OptionsGeneral57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/OptionsGeneral58.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/OptionsGeneral63.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/OptionsGeneral7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/OptionsGeneral8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Orientation_Vue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Oui-Non.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Parametrage_SmartCounter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Parametre_Action0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Parametre_Action1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Parametre_Action2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Parametre_Action3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Parametre_Action4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Perspective.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Pieces01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Plan0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Plan1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Plan10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Plan2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Plan3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Plan4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Plan5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Plan6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Plan7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Plan8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Plan9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Presentation Generale1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Propriete0-.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Propriete0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Propriete1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Propriete2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Propriete3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Propriete4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Propriete5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Propriete6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Propriete7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Propriete8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Propriete9-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Propriete9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/RealView.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Renomme Action.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Rond rouge1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Rond rouge2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Rond1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Rond2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Rond3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Rond4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Save as.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Scne.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/SelectCouleurs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/SelectValeurProp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/SmartCounter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/SolidWorks0-.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/SolidWorks1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/SolidWorks2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/StyleAffichage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Suppr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Sur quelle configuration.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Type_Entite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/TypesDeTable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Visu Rapport.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/Warning1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/check.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/ui.dynatree.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/uncheck.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/book-closed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/book.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/en-flag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/footer-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/fr-flag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/header-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/header.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/topic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/ui-bg_inset-soft_95_fef1ec_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/vline.gif" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/header-bg.png" afterPath="$PROJECT_DIR$/public/img/header-bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/doc/en/imgspec/NouvelElement174.png" afterPath="$PROJECT_DIR$/views/doc/en/imgspec/NouvelElement174.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/localStorage/language" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/en/imgspec/arrow_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/en/imgspec/arrow_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/en/imgspec/arrow_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/arrow_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/arrow_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/doc/fr/imgspec/arrow_up.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert.js" afterPath="$PROJECT_DIR$/convert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/custom.js" afterPath="$PROJECT_DIR$/public/javascripts/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/doc/en/Accslaide.ejs" afterPath="$PROJECT_DIR$/views/doc/en/Accslaide.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/doc/en/Activeuneconfiguration.ejs" afterPath="$PROJECT_DIR$/views/doc/en/Activeuneconfiguration.ejs" />
@@ -969,7 +214,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/doc/en/Unepropritexisteavecunevaleurdon.ejs" afterPath="$PROJECT_DIR$/views/doc/en/Unepropritexisteavecunevaleurdon.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/doc/en/Unepropritnexistepas.ejs" afterPath="$PROJECT_DIR$/views/doc/en/Unepropritnexistepas.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/doc/en/Zoomtout.ejs" afterPath="$PROJECT_DIR$/views/doc/en/Zoomtout.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/doc/en/toc.ejs" afterPath="$PROJECT_DIR$/views/doc/en/toc.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/doc/fr/Accslaide.ejs" afterPath="$PROJECT_DIR$/views/doc/fr/Accslaide.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/doc/fr/Activeuneconfiguration.ejs" afterPath="$PROJECT_DIR$/views/doc/fr/Activeuneconfiguration.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/doc/fr/Activeuneorientation.ejs" afterPath="$PROJECT_DIR$/views/doc/fr/Activeuneorientation.ejs" />
@@ -1191,8 +435,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+            <state relative-caret-position="273">
+              <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -1201,8 +445,38 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="420">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toc.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/doc/fr/toc.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="220" column="54" lean-forward="false" selection-start-line="220" selection-start-column="54" selection-end-line="220" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -1211,8 +485,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+            <state relative-caret-position="294">
+              <caret line="14" column="78" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -1221,8 +495,8 @@
       <file leaf-file-name="convert.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/convert.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            <state relative-caret-position="152">
+              <caret line="124" column="70" lean-forward="false" selection-start-line="124" selection-start-column="70" selection-end-line="124" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -1262,6 +536,7 @@
       <find>header.png</find>
       <find>topic_header</find>
       <find>header-bg.png</find>
+      <find>transla</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\quentin.perrier\WebstormProjects\http-doc-tools\public\javascripts</dir>
@@ -1277,16 +552,18 @@
       <list>
         <option value="$PROJECT_DIR$/views/doc/toc.ejs" />
         <option value="$PROJECT_DIR$/documentation/toc.html" />
-        <option value="$PROJECT_DIR$/public/javascripts/custom.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/custom.css" />
         <option value="$PROJECT_DIR$/translate.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/jquery-ui-1.8.12.custom.css" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/toc.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/base.css" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/views/toc.ejs" />
+        <option value="$PROJECT_DIR$/views/accueil.ejs" />
+        <option value="$PROJECT_DIR$/public/javascripts/custom.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/convert.js" />
       </list>
     </option>
@@ -1368,6 +645,10 @@
               <option name="myItemId" value="doc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1379,7 +660,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="http-doc-tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="http-doc-tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1393,6 +692,11 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\quentin.perrier\WebstormProjects\http-doc-tools\views" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -1405,7 +709,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.Unnamed">
+  <component name="RunManager" selected="Node.js.bin\www">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -1544,7 +848,7 @@
       <workItem from="1490020652555" duration="89000" />
       <workItem from="1490020769074" duration="76000" />
       <workItem from="1490020912611" duration="4840000" />
-      <workItem from="1490188049651" duration="64275000" />
+      <workItem from="1490188049651" duration="77863000" />
     </task>
     <task id="LOCAL-00001" summary="Version draft avec :&#10;-Traduction via google translate API&#10;-gestion de l'enregistrement du choix de la langue dans le local storage&#10;-récupération du title de la page courante&#10;-gestion des images i18n">
       <created>1490608944577</created>
@@ -1557,16 +861,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90748000" />
+    <option name="totallyTimeSpent" value="104336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25383395" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1594,7 +899,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="32" />
+      <option name="time" value="35" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
@@ -1757,14 +1062,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -1793,14 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="58" column="78" lean-forward="false" selection-start-line="58" selection-start-column="78" selection-end-line="58" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1862,34 +1151,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        <state relative-caret-position="420">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/error.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/toc.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/accueil.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="220" column="54" lean-forward="false" selection-start-line="220" selection-start-column="54" selection-end-line="220" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+        <state relative-caret-position="273">
+          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="294">
+          <caret line="14" column="78" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/doc/fr/toc.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/convert.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="152">
+          <caret line="124" column="70" lean-forward="false" selection-start-line="124" selection-start-column="70" selection-end-line="124" selection-end-column="70" />
           <folding />
         </state>
       </provider>

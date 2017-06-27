@@ -45,8 +45,10 @@
         <%} %>
     </div>
     <div class="col-md-8" id="right">
-      <a href="/fr/<%- page.replace('ejs', 'html') %>" onclick="return switchLanguage('fr');"><img src="/img/fr-flag.png" class="fr"/></a>
-      <a href="/en/<%- page.replace('ejs', 'html') %>" onclick="return switchLanguage('en');"><img src="/img/en-flag.png" class="en"/></a>
+      <div id="flag-lang">
+        <a href="/fr/<%- page.replace('ejs', 'html') %>" onclick="return switchLanguage('fr');"><img src="/img/fr-flag.png" class="fr"/></a>
+        <a href="/en/<%- page.replace('ejs', 'html') %>" onclick="return switchLanguage('en');"><img src="/img/en-flag.png" class="en"/></a>
+      </div>
         <%if(lang != 'none') {%>
             <%-include('doc/' + lang +'/' + page);%>
         <%} %>

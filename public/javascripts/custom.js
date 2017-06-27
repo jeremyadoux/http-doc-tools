@@ -74,7 +74,7 @@ $(document).ready(function() {
     // Load search data
     (function() {
         var se = document.createElement('script'); se.type = 'text/javascript'; se.async = true;
-        se.src = 'javascripts/hndsd.js';
+        se.src = '/javascripts/hndsd.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(se, s);
     })();
 
@@ -193,7 +193,7 @@ function PerformSearch()
                 if ($("#search_results_content") && $("#search_results_content").dynatree && $("#search_results_content").dynatree("getTree") && $("#search_results_content").dynatree("getTree").activateKey)
                     $("#search_results_content").dynatree("getTree").activateKey(null);
                 if(node.data.href && node.data.href != '#'){
-                    window.open(node.data.href, node.data.target);
+                    window.location(node.data.href, node.data.target);
                 }
             }
         });

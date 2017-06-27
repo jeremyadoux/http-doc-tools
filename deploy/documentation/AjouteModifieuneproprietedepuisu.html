@@ -1,10 +1,14 @@
-﻿<html>
+﻿
+
+<html>
 	
 <head>
 	<title>Ajoute-Modifie une propri&eacute;t&eacute; depuis une table Excel</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="generator" content="HelpNDoc Professional Edition 4.9.2.132">
+    <meta name="generator" content="HelpNDoc Professional Edition 5.0.1.188">
 	<meta name="keywords" content="">
+	
+	
 	
 	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
 	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
@@ -26,7 +30,7 @@
 			if (top.frames.length == 0)
 			{
 				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
-				top.location.href = "Integration_FR.html?" + sTopicUrl;
+				top.location.href = "myCADtools.html?" + sTopicUrl;
 			}
 			else
 			{
@@ -44,72 +48,97 @@
 		});
 	</script>
 	
-	</head>
+	
+</head>
 
 <body>
 
-<div id="topic_header">
+
+
+	
+		<div id="topic_header">
 			<div id="topic_header_content">
 				<h1 id="topic_header_text">Ajoute-Modifie une propri&eacute;t&eacute; depuis une table Excel</h1>
 				
+				
 				<div id="topic_breadcrumb">
-					Utilisation de &quot;Integration&quot; &rsaquo;&rsaquo; D&eacute;tail des op&eacute;rations &rsaquo;&rsaquo; <a href="Proprit1.html">Propri&eacute;t&eacute;</a> &rsaquo;&rsaquo; </div>
+					<a href="PrsentationdelutilitaireIntegrat.html">Integration</a> &rsaquo;&rsaquo; Utilisation de &quot;Integration&quot; &rsaquo;&rsaquo; D&eacute;tail des op&eacute;rations &rsaquo;&rsaquo; <a href="Proprit1.html">Propri&eacute;t&eacute;</a> &rsaquo;&rsaquo; 
 				</div>
+				
+			</div>
+			
 			<div id="topic_header_nav">
+				
+				
 				<a href="Proprit1.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				
 				
 				<a href="AjouteModifieuneproprit1.html"><img src="img/arrow_left.png" alt="Previous"/></a>
 				
+				
+				
 				<a href="AjouteModifieuneproprieteSOLIDWO.html"><img src="img/arrow_right.png" alt="Next"/></a>
 				
-				</div>
+				
+			</div>
+			
 			<div class="clear"></div>
 		</div>
+	
+	
 	<div id="topic_content">
 		
 <p></p>
 <p class="rvps2"><span class="rvts7"><br/></span></p>
-<p class="rvps3"><span class="rvts7">Opération possible sur les pièces, les assemblages ou les mises en plan. </span><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/Condition00.png"></p>
-<p class="rvps3"><span class="rvts7">Cette opération permet de créer ou de modifier la valeur d'une propriété des fichiers sélectionnés, en récupérant la valeur depuis une table Excel.</span></p>
-<p class="rvps3"><span class="rvts7"><br/></span></p>
-<p class="rvps3"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/Warning.png"><span class="rvts7"> L'utilitaire se connecte une seule fois lorsque le bouton </span><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/BoutonAppliquerTout.png"><span class="rvts7"> est sélectionné. Si entre temps vous modifiez le fichier Excel celui-ci n'est pas mis à jour dans l'utilitaire. Pour prendre en compte les modifications il faut sortir de l'utilitaire et le relancer afin que la table soit rechargée.</span></p>
-<p class="rvps3"><span class="rvts7"><br/></span></p>
-<p class="rvps3"><span class="rvts24">Exemple</span><span class="rvts7"> :</span></p>
-<p class="rvps3"><span class="rvts7">La propriété "</span><span class="rvts18">Code_Article</span><span class="rvts7">" doit être créée (ou modifiée si elle existe) en récupérant la valeur contenue dans le fichier Excel "</span><span class="rvts18">Extract.xlsx</span><span class="rvts7">" correspondant à la colonne "</span><span class="rvts18">Code</span><span class="rvts7">" de la première feuille "</span><span class="rvts18">1</span><span class="rvts7">"pour les fichiers sélectionnés.</span></p>
-<p class="rvps3"><span class="rvts7"><br/></span></p>
-<p class="rvps3"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/Oper-Propriete2111.png"><span class="rvts7"> </span></p>
-<p class="rvps3"><span class="rvts7"><br/></span></p>
-<p class="rvps3"><span class="rvts7">Le formatage des critères avec comme séparateur "</span><span class="rvts18">|</span><span class="rvts7">" se décompose comme suit et permet de codifier la cellule à lire:</span></p>
-<p class="rvps3"><span class="rvts7">1 =&gt; N° de la feuille Excel à utiliser</span></p>
-<p class="rvps3"><span class="rvts7">&lt;PathName&gt; =&gt; Quelle est la ligne sélectionnée.</span></p>
-<p class="rvps3"><span class="rvts7">Code =&gt; Nom de la colonne "Code" à lire. On peut également utiliser "</span><span class="rvts18">*</span><span class="rvts7">" pour prendre toute les colonnes.</span></p>
-<p class="rvps3"><span class="rvts7"><br/></span></p>
-<p class="rvps3"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/Oper-Propriete210.png"><span class="rvts7"> </span></p>
-<p class="rvps3"><span class="rvts7"><br/></span></p>
-<p class="rvps3"><span class="rvts7">Exemple pour la sélection des fichiers suivants :</span></p>
-<p class="rvps3"><span class="rvts7"><br/></span></p>
-<p class="rvps3"><img alt="" style="padding : 1px;" src="lib/Oper-Propriete213.png"></p>
-<p class="rvps3"><span class="rvts7"><br/></span></p>
-<p class="rvps3"><span class="rvts7">Pour le fichier : "180-Arbre" la propriété "Code_Article" prendra la valeur "180-24".</span></p>
-<p class="rvps3"><span class="rvts7">Pour le fichier : "180-disque" la propriété "Code_Article" prendra la valeur "180-26".</span></p>
-<p class="rvps3"><span class="rvts7">Pour le fichier : "180-manille-malle" la propriété "Code_Article" prendra la valeur "180-29".</span></p>
-<p class="rvps3"><span class="rvts7"><br/></span></p>
-<p class="rvps3"><span class="rvts7">Les clés utilisables pour le deuxième champs :</span></p>
-<p class="rvps3"><span class="rvts18">&lt;PathName&gt;</span><span class="rvts7"> &nbsp;=&gt; &nbsp;Adresse complète du fichier</span></p>
-<p class="rvps3"><span class="rvts18">&lt;FileName&gt;</span><span class="rvts7"> &nbsp;=&gt; &nbsp;Nom du fichier</span></p>
-<p class="rvps3"><span class="rvts18">&lt;$Propriété&gt;</span><span class="rvts7"> &nbsp;=&gt; &nbsp;Valeur de la propriété</span></p>
-<p class="rvps3"><span class="rvts7">Et, de manière facultative, on peut utiliser en complément du second champ la clé </span><span class="rvts18">&lt;Configuration&gt;</span><span class="rvts7"> &nbsp;=&gt; &nbsp;Nom de la colonne qui contient le nom de la configuration où créer la propriété (sinon la propriété est créée sur le document).</span></p>
-<p class="rvps3"><span class="rvts7"><br/></span></p>
-<p class="rvps3"><span class="rvts7"><br/></span></p>
+<p class="rvps13"><span class="rvts7">Opération possible sur les pièces, les assemblages ou les mises en plan. </span><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NouvelElement1666.png"></p>
+<p class="rvps13"><span class="rvts7">Cette opération permet de créer ou de modifier la valeur d'une propriété des fichiers sélectionnés, en récupérant la valeur depuis une table Excel.</span></p>
+<p class="rvps13"><span class="rvts7"><br/></span></p>
+<p class="rvps13"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NouvelElement1665.png"><span class="rvts7"> L'utilitaire se connecte une seule fois lorsque le bouton </span><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NouvelElement1664.png"><span class="rvts7"> est sélectionné. Si entre temps vous modifiez le fichier Excel celui-ci n'est pas mis à jour dans l'utilitaire. Pour prendre en compte les modifications il faut sortir de l'utilitaire et le relancer afin que la table soit rechargée.</span></p>
+<p class="rvps13"><span class="rvts7"><br/></span></p>
+<p class="rvps13"><span class="rvts49">Exemple</span><span class="rvts7"> :</span></p>
+<p class="rvps13"><span class="rvts7">La propriété "</span><span class="rvts19">Code_Article</span><span class="rvts7">" doit être créée (ou modifiée si elle existe) en récupérant la valeur contenue dans le fichier Excel "</span><span class="rvts19">Extract.xlsx</span><span class="rvts7">" correspondant à la colonne "</span><span class="rvts19">Code</span><span class="rvts7">" de la première feuille "</span><span class="rvts19">1</span><span class="rvts7">"pour les fichiers sélectionnés.</span></p>
+<p class="rvps13"><span class="rvts7"><br/></span></p>
+<p class="rvps13"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NouvelElement1663.png"><span class="rvts7"> </span></p>
+<p class="rvps13"><span class="rvts7"><br/></span></p>
+<p class="rvps13"><span class="rvts7">Le formatage des critères avec comme séparateur "</span><span class="rvts19">|</span><span class="rvts7">" se décompose comme suit et permet de codifier la cellule à lire:</span></p>
+<p class="rvps13"><span class="rvts7">1 =&gt; N° de la feuille Excel à utiliser</span></p>
+<p class="rvps13"><span class="rvts7">&lt;PathName&gt; =&gt; Quelle est la ligne sélectionnée.</span></p>
+<p class="rvps13"><span class="rvts7">Code =&gt; Nom de la colonne "Code" à lire. On peut également utiliser "</span><span class="rvts19">*</span><span class="rvts7">" pour prendre toute les colonnes.</span></p>
+<p class="rvps13"><span class="rvts7"><br/></span></p>
+<p class="rvps13"><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NouvelElement1662.png"><span class="rvts7"> </span></p>
+<p class="rvps13"><span class="rvts7"><br/></span></p>
+<p class="rvps13"><span class="rvts7">Exemple pour la sélection des fichiers suivants :</span></p>
+<p class="rvps13"><span class="rvts7"><br/></span></p>
+<p class="rvps13"><img alt="" style="padding : 1px;" src="lib/NouvelElement1661.png"></p>
+<p class="rvps13"><span class="rvts7"><br/></span></p>
+<p class="rvps13"><span class="rvts7">Pour le fichier : "180-Arbre" la propriété "Code_Article" prendra la valeur "180-24".</span></p>
+<p class="rvps13"><span class="rvts7">Pour le fichier : "180-disque" la propriété "Code_Article" prendra la valeur "180-26".</span></p>
+<p class="rvps13"><span class="rvts7">Pour le fichier : "180-manille-malle" la propriété "Code_Article" prendra la valeur "180-29".</span></p>
+<p class="rvps13"><span class="rvts7"><br/></span></p>
+<p class="rvps13"><span class="rvts7">Les clés utilisables pour le deuxième champs :</span></p>
+<p class="rvps13"><span class="rvts19">&lt;PathName&gt;</span><span class="rvts7"> &nbsp;=&gt; &nbsp;Adresse complète du fichier</span></p>
+<p class="rvps13"><span class="rvts19">&lt;FileName&gt;</span><span class="rvts7"> &nbsp;=&gt; &nbsp;Nom du fichier</span></p>
+<p class="rvps13"><span class="rvts19">&lt;$Propriété&gt;</span><span class="rvts7"> &nbsp;=&gt; &nbsp;Valeur de la propriété</span></p>
+<p class="rvps13"><span class="rvts7">Et, de manière facultative, on peut utiliser en complément du second champ la clé </span><span class="rvts19">&lt;Configuration&gt;</span><span class="rvts7"> &nbsp;=&gt; &nbsp;Nom de la colonne qui contient le nom de la configuration où créer la propriété (sinon la propriété est créée sur le document).</span></p>
+<p class="rvps13"><span class="rvts7"><br/></span></p>
+<p class="rvps13"><span class="rvts7"><br/></span></p>
 <p></p>
-</div>
+
+	</div>
 	
-	<div id="topic_footer">
+	
+		<div id="topic_footer">
 
 			<div id="topic_footer_content">
-				Copyright &copy; 2017 by Visiativ. All Rights Reserved.</div>
+				Copyright &copy; 2017  by Visiativ. All Rights Reserved.
+			</div>
 		</div>
-	</body>
+	
+	
+
+	
+</body>
 	
 </html>
 
